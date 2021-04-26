@@ -10,7 +10,7 @@ const Textbox = () => {
 
     const handleclick = (event) => {
             setcolour(colour.target.value);
-            setfont(50)
+            setfont(font.target.value)
     }
     function getcolour(colour){
         setcolour(colour.target.value)
