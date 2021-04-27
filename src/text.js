@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Box from './box';
 
 
@@ -16,6 +16,11 @@ const Textbox = () => {
     function getfont(font){
         setfont(font.target.value+'px')
     }
+
+    useEffect(() => {
+        console.log("Use Effect Ran")
+    });
+
     return ( 
         <div className="text">
             <h1>Home</h1>

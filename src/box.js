@@ -1,7 +1,7 @@
 const Box = (props) => {
 
     const colour = props.colour;
-    const font = props.colour;
+    const font = props.font;
 
     const getcolour = props.getcolour;
     const getfont = props.getfont;
