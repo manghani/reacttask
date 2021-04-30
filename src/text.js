@@ -19,7 +19,7 @@ const Textbox = () => {
 
     useEffect(() => {
         console.log("Use Effect Ran")
-    });
+    }, []);
 
     return ( 
         <div className="text">
